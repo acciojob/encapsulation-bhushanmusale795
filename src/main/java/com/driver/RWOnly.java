@@ -15,6 +15,6 @@ public class RWOnly {
 
     // Setter for name
     public void setName(String name) {
-        this.name = names;
+        this.name = name;
     }
 }
