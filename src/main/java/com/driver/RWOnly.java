@@ -1,20 +1,17 @@
 package com.driver;
 
+// Step 2: Create RWOnly class with a private member variable
 public class RWOnly {
-    private String name;
+    private String name; // private member variable
 
-    // Constructor (optional)
-    public RWOnly() {
-        // Initialize or leave it empty
-    }
-
-    // Getter for name
+    // Step 5: Implement getter and setter methods
     public String getName() {
         return name;
     }
 
-    // Setter for name
     public void setName(String name) {
         this.name = name;
     }
-}
+};
+
+

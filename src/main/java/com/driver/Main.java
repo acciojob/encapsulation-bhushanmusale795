@@ -2,14 +2,18 @@ package com.driver;
 
 public class Main {
 
-    public static void main(String[] args) {
-        RWOnly obj = new RWOnly();
+    // Step 3: Create Main class with main function
+    public class Main {
+        public static void main(String[] args) {
+            // Step 4: Create an object of RWOnly class
+            RWOnly obj = new RWOnly();
 
-        // Now proceed with Task 4, 5, and 6 as described
-        // Attempt to directly access private member (Task 4)
-        obj.name = "Direct Access";  // This will cause a compile-time error
-        System.out.println(obj.name);  // This will also cause a compile-time error
-        // Using getter and setter (Task 6)
-        obj.setName("John Doe");  // Using setter to set the value
-        System.out.println(obj.getName());  // Using getter to retrieve and print the value
-}
+            // Trying to set and print directly (Step 4)
+            // obj.name = "John"; // This will give a compile-time error because 'name' is private
+            // System.out.println(obj.name); // This will also give a compile-time error
+
+            // Step 6: Using getter and setter methods
+            obj.setName("John"); // Setting value using setter
+            System.out.println("Name: " + obj.getName()); // Getting value using getter
+        }
+    }
