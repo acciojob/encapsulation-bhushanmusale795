@@ -1,8 +1,7 @@
 package com.driver;
 
-public class Main {
 
-    // Step 3: Create Main class with main function
+    /
     public class Main {
         public static void main(String[] args) {
             // Step 4: Create an object of RWOnly class
