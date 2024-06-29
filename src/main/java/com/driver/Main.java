@@ -9,8 +9,12 @@ public class Main {
             RWOnly obj = new RWOnly();
 
             // Trying to set and print directly (Step 4)
-             obj.name = "John"; // This will give a compile-time error because 'name' is private
-            System.out.println(obj.getName()); // This will also give a compile-time error
+
+            // Trying to set and print directly (Step 4)
+            obj.name = "John"; // Compile-time error because 'name' is private
+            System.out.println(obj.name); // Compile-time error because 'name' is private
+            System.out.println(obj.getName()); // Compile-time error because 'getName' method might not exist or 'name' field is not accessible
+
 
             // Step 6: Using getter and setter methods
             obj.setName("John"); // Setting value using setter
