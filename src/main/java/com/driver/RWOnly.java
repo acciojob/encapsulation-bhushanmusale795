@@ -4,6 +4,9 @@ package com.driver;
 // RWOnly.java
 
 // Define the class RWOnly
+// RWOnly.java
+
+// Define the class RWOnly
 public class RWOnly {
     // Private member variable
     private String name;
